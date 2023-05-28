@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.10120043_AZHALYA"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.a10120041_azhalya.UpdateActivity"
+            android:exported="false"
+            android:label="Uodate Note" />
+        <activity
+            android:name="com.example.a10120041_azhalya.AddActivity"
+            android:exported="false"
+            android:label="Add Note" />
+        <activity
+            android:name="com.example.a10120041_azhalya.SplashActivity"
+            android:exported="true"
+            android:label="10120041 AZHALYA"
+            android:theme="@style/Theme.10120043_AZHALYA">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.a10120041_azhalya.MainActivity"
+            android:exported="false"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>
